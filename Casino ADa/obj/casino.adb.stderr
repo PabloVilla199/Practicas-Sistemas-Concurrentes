@@ -1,0 +1,3 @@
+casino.adb:34:13: warning: unreachable code [enabled by default]
+casino.adb:240:04: warning: variable "NumAsiento" is read but never assigned [-gnatwv]
+casino.adb:241:04: warning: variable "NumSlot" is read but never assigned [-gnatwv]

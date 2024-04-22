@@ -1,0 +1,3 @@
+almacen.ads:11:04: error: illegal declaration in protected definition
+almacen.ads:18:04: error: "end Almacen_Protected;" expected
+almacen.ads:30:01: error: "end Almacen;" expected

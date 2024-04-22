@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Pablo\Desktop\Universidad\2023-2024\Primer cuatrimestre\Concurrentes\Casino ADa\casini.gpr</vfs_file>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project>C:\Users\Pablo\Desktop\Universidad\2023-2024\Primer cuatrimestre\Concurrentes\Casino ADa\casini.gpr</vfs_project>
+      <vfs_file>C:\Users\Pablo\Desktop\Universidad\2023-2024\Primer cuatrimestre\Concurrentes\Casino ADa\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 13" line=" 34" >
+      <vfs_project>C:\Users\Pablo\Desktop\Universidad\2023-2024\Primer cuatrimestre\Concurrentes\Casino ADa\casini.gpr</vfs_project>
+      <vfs_file>C:\Users\Pablo\Desktop\Universidad\2023-2024\Primer cuatrimestre\Concurrentes\Casino ADa\src\casino.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

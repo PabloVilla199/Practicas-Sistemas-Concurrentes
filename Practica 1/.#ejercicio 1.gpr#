@@ -1,0 +1,41 @@
+with Ada.Text_IO;
+use Ada.Text_IO;
+with Ada.Integer_Text_IO;
+use Ada.Integer_Text_IO;
+
+procedure Main is
+   Numero: Integer := 0;
+   Suma: Integer := 0;
+
+   function esPrimo(X: Integer) return Boolean is
+   begin
+      if X < 2 then
+         return false;
+      end if;
+
+      for i in 2..X-1 loop
+         if X mod i = 0 then
+            return false;
+         end if;
+      end loop;
+      return true;
+   end esPrimo;
+
+begin
+   loop
+      Put_Line("Introduzca un numero entero y positivo: ");
+      Get(Numero);
+      if Numero < 0 then
+         exit;
+      end if;
+
+      Suma := 0;
+      for i in 1..Numero loop
+         if esPrimo(i) then
+            Suma := Suma + i;
+         end if;
+      end loop;
+
+      Put_Line("La suma de los números primos menores o iguales a " & Integer'Image(Numero) & " es: " & Integer'Image(Suma));
+   end loop;
+end Main;

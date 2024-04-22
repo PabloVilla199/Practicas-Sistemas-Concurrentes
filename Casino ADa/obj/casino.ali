@@ -1,0 +1,281 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV PURE_BARRIERS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV MAX_PROTECTED_ENTRIES=8
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U casino%b		casino.adb		911befef OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U casino%s		casino.ads		37ac38a1 EE NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system%s		system.ads		system.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuflra.ads		20210520051130 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D casino.ads		20231213100630 37ac38a1 casino%s
+D casino.adb		20231213102606 4815a959 casino%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-conca4.ads		20210520051132 7e642b20 system.concat_4%s
+D s-conca5.ads		20210520051132 875e432e system.concat_5%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-rannum.ads		20210520051134 c3978523 system.random_numbers%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051128 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [acceder_casino casino__casino_protegido 29 13 none]
+G c Z s b [dar_dni casino__casino_protegido 30 13 none]
+G c Z s b [acceder_slot casino__casino_protegido 31 13 none]
+G c Z s b [salir_slot casino__casino_protegido 32 13 none]
+G c Z s b [mostrar_dni casino__casino_protegido 33 13 none]
+G c Z s b [acceder_ruleta casino__casino_protegido 34 13 none]
+G c Z s b [salir_ruleta casino__casino_protegido 35 13 none]
+G c Z s b [decision_salida casino__casino_protegido 36 17 none]
+G c Z s b [salir casino__casino_protegido 37 13 none]
+G c Z s b [jugarruleta casino__casino_protegido 38 17 none]
+G c Z s b [jugarslots casino__casino_protegido 39 17 none]
+G c Z s b [comprobarsaldo casino__casino_protegido 40 16 none]
+G c Z s b [casino_protegido__decision_salidaN casino 36 7 none]
+G c Z s b [casino_protegido__decision_salidaP casino 36 7 none]
+G c Z s b [casino_protegido__jugarruletaN casino 38 7 none]
+G c Z s b [casino_protegido__jugarruletaP casino 38 7 none]
+G c Z s b [casino_protegido__jugarslotsN casino 39 7 none]
+G c Z s b [casino_protegido__jugarslotsP casino 39 7 none]
+G c Z s b [casino_protegido__comprobarsaldoN casino 40 7 none]
+G c Z s b [casino_protegido__comprobarsaldoP casino 40 7 none]
+G c Z s b [acceso_casino casino 49 16 none]
+G c Z s b [controldni casino 50 16 none]
+G c Z s b [juego casino 51 16 none]
+G c Z s b [decision casino 52 16 none]
+G c Z s b [salida casino 53 16 none]
+G c Z s s [clienteIP casino 5 9 none]
+G c Z s s [TclientesarrayBIP casino 11 4 none]
+G c Z s s [slotIP casino 13 9 none]
+G c Z s s [TslotsarrayBIP casino 17 4 none]
+G c Z s s [asiento_ruletaIP casino 19 9 none]
+G c Z s s [TruletaarrayBIP casino 23 4 none]
+G c Z s s [casino_protegidoVDI casino 28 7 none]
+G c Z s s [casino_protegidoVDF casino 28 7 none]
+G c Z s s [casino_protegidoVIP casino 28 7 none]
+G c Z s s [P8sIP casino 29 7 none]
+G c Z s s [P11sIP casino 30 7 none]
+G c Z s s [P14sIP casino 31 7 none]
+G c Z s s [P18sIP casino 32 7 none]
+G c Z s s [P21sIP casino 33 7 none]
+G c Z s s [P24sIP casino 34 7 none]
+G c Z s s [P28sIP casino 35 7 none]
+G c Z s s [P31sIP casino 37 7 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r23 2r6 2r37
+X 5 a-numeri.ads
+16K13*Numerics 35e17 15|2r10 2r41
+X 6 a-nuflra.ads
+41K22*Float_Random 74e30 15|2w19 2r50
+47R9*Generator<36|65R9> 15|5r8
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<36|73p13> 15|59s24 77s42 113s39 150s30 151s32 152s26
+. 181s30 182s26 259s27
+X 12 a-textio.ads
+58K13*Text_IO 725e16 15|1w10 1r27
+506U14*Put_Line 15|14s10 20s13 27s13 29s13 47s19 80s25 83s25 99s19 116s24
+. 119s24 135s16 155s7 157s7 161s10 164s10 186s7 193s13 200s13 206s13 212s13
+. 218s13 225s13
+X 14 casino.ads
+1K9*Casino 54l5 54e11 15|4b14 274r10 290l5 290t11
+3i4*CantidadMax{integer} 11r36
+5R9*Cliente 10e14 11r53 29r46 30r39 31r44 32r42 33r43 34r46 35r44 36r51 37r41
+. 38r51 39r51 40r49 49r48 50r45 51r40 52r44 53r46 15|7r19 10r46 17r39 24r43
+. 40r44 56r50 71r42 92r46 107r44 128r41 141r44 173r43 229r46 242r46 247r43
+. 253r38 255r19 278r41 283r44
+6i7*Id{integer} 15|14r85 20r90 27r64 29r64 31r25 31r43 47r70 62r25 62r43
+. 80r76 83r77 99r70 116r75 119r76 132r29 132r46 135r67 155r58 161r61 164r61
+. 193r64 200r64 206r64 212r64 218r64 225r64
+7i7*Saldo{integer} 15|160m23 160r46 161r144 163m23 163r45 164r145 192m26
+. 192r49 193r145 199m26 199r49 200r145 205m26 205r49 206r145 211m26 211r49
+. 212r145 217m26 217r49 218r145 224m26 224r48 225r146 231r23 260r23
+8i7*Edad{integer} 15|26r26
+9b7*Vetado{boolean} 15|32m31 40r92 42r30 63m25 92r95 94r30 128r68 130r25
+11A9*ClientesArray(5R9)<integer> 44r18
+13R9*Slot 16e14 17r39
+14i7*Id{integer} 15|76r49
+15b7*Ocupado{boolean} 15|45r32 46m28 76r28 82m34
+17A9*SlotsArray(13R9)<integer> 45r15
+19R9*Asiento_Ruleta 22e14 23r40
+20i7*ID{integer} 15|112r51
+21b7*Ocupado{boolean} 15|97r33 98m29 112r29 118m34
+23A9*RuletaArray(19R9)<integer> 46r16
+28W22*Casino_Protegido 43E7 47l8 47e24 15|8b19 237l8 237t24 239r14
+29Y13 Acceder_Casino 29>28 15|10b13 15l11 15t25 244s15
+29r28 Frecuentador{5R9} 15|13r32 14r72
+30Y13 Dar_Dni 30>21 15|17b13 22l11 22t18 249s15
+30r21 Frecuentador{5R9} 15|20r77
+31Y13 Acceder_Slot 31>26 15|40b13 54l11 54t23 267s21
+31r26 Frecuentador{5R9} 15|42r17 47r57
+32Y13 Salir_Slot 32>24 32>51 15|71b13 90l11 90t21 269s21
+32r24 Frecuentador{5R9} 15|80r63 83r64
+32i51 NumSlot{integer} 15|76r54
+33Y13 Mostrar_Dni 33>25 15|24b13 38l5 38t16 250s15
+33r25 Frecuentador{5R9} 15|26r13 27r51 29r51 31r30
+34Y13 Acceder_Ruleta 34>28 15|92b13 105l11 105t25 263s21
+34r28 Frecuentador{5R9} 15|94r17 99r57
+35Y13 Salir_Ruleta 35>26 35>53 15|107b13 126l11 126t23 265s21
+35r26 Frecuentador{5R9} 15|116r62 119r63
+35i53 NumAsiento{integer} 15|112r56
+36U17 Decision_Salida 36>33 15|56b16 68l5 68t20 280s15
+36r33 Frecuentador{5R9} 15|56b32 62r30
+37Y13 Salir 37=19 15|128b13 139l11 139t16 285s15
+37r19 Frecuentador{5R9} 15|130r12 132r16 135r54
+38U17 JugarRuleta 38=29 15|141b11 171l5 171t16 264s21
+38r29 Frecuentador{5R9} 15|141b23 155r45 160m10 160r33 161r48 161r131 163m10
+. 163r32 164r48 164r132
+39U17 JugarSlots 39=28 15|173b11 228l11 228t21 268s21
+39r28 Frecuentador{5R9} 15|173b22 192m13 192r36 193r51 193r132 199m13 199r36
+. 200r51 200r132 205m13 205r36 206r51 206r132 211m13 211r36 212r51 212r132
+. 217m13 217r36 218r51 218r132 224m13 224r35 225r51 225r133
+40V16 ComprobarSaldo{boolean} 40>31 15|229b13 235l8 235t22
+40r31 Frecuentador{5R9} 15|229b28 231r10
+43i7 CantidadMax{integer} 15|10r71
+44a7 Clientes{11A9} 15|13r10 30r22 31r13 32r19 61r16 62r13 63r13 132r34 133r16
+. 133r31
+45a7 Slots{17A9} 15|44r22 45r23 46r19 75r22 76r19 76r40 82r25
+46a7 Ruleta{23A9} 15|96r22 97r23 98r19 111r22 112r19 112r41 118r24
+49U16*Acceso_Casino 49>30 15|242b14 245l8 245t21
+49r30 Frecuentador{5R9} 15|242b28 244r30
+50U16*ControlDNI 50>27 15|247b14 251l8 251t18
+50r27 Frecuentador{5R9} 15|247b25 249r23 250r27
+51U16*Juego 51>22 15|253b14 276l8 276t13
+51r22 Frecuentador{5R9} 15|253b20 258r20 260r10 263r36 265r34 267r34 269r32
+52U16*Decision 52>26 15|278b14 281l8 281t16
+52r26 Frecuentador{5R9} 15|278b23 280r31
+53U16*Salida 53=23 15|274s17 283b14 287l8 287t14
+53r23 Frecuentador{5R9} 15|283b21 285m21
+X 15 casino.adb
+5r4 G{6|47R9} 59r31 77r49 113r46 150r37 151r39 152r33 181r37 182r33 259r34
+6i4 contador{integer} 10r60 12m10 12r22 13r19 17r53 19r13 24r57 40r58 43r14
+. 71r78 74r13 92r60 95r13 107r82 110r13 131r22 133r40 134m16 134r28
+7r4 Frecuentador{14|5R9} 40r79 92r82 128r55
+10r28 Frecuentador{14|5R9}
+17r21 Frecuentador{14|5R9}
+24r25 Frecuentador{14|5R9}
+30i17 I{integer} 31r22 32r28
+40r26 Frecuentador{14|5R9}
+44i17 I{integer} 45r29 46r25 47r120
+57i4 eleccion{integer} 59m4 60r7
+61i11 I{integer} 62r22 63r22
+71r24 Frecuentador{14|5R9}
+71i51 NumSlot{integer}
+72i10 Decision{integer} 77m22 79r25
+75i17 I{integer} 76r25 76r46 80r134 82r31
+92r28 Frecuentador{14|5R9}
+96i17 I{integer} 97r30 98r26 99r123
+107r26 Frecuentador{14|5R9}
+107i53 NumAsiento{integer}
+108i10 Decision{integer} 113m19 115r25
+111i17 I{integer} 112r26 112r48 118r31
+128r19 Frecuentador{14|5R9}
+131i14 I{integer} 132r43 133r25
+142i4 num_elegido{integer} 150m7 159r26
+143i4 num_aleatorio{integer} 151m7 157r83 159r10 167r10
+144i4 cuotaPremio{integer} 153r27
+145i4 apuesta{integer} 152m7 153r17 160r54 163r53
+146i4 premio{integer} 153m7 160r65
+147b4 irse{boolean} 149r14 168m10
+174i4 combinacion{integer} 181m7 186r60 188r12
+175i4 apuesta{integer} 182m7 191r37 192r57 198r37 199r57 204r37 205r57 210r37
+. 211r57 216r37 217r57 224r56
+176i4 premio{integer} 191m13 192r68 198m13 199r68 204m13 205r68 210m13 211r68
+. 216m13 217r68
+177i4 cuotaPremio{integer} 190m13 191r23 197m13 198r23 203m13 204r23 209m13
+. 210r23 215m13 216r23
+178b4 salir{boolean} 180r14 221m13
+239w4 Casino1{14|28W22} 244r7 249r7 250r7 263r13 264r13 265r13 267r13 268r13
+. 269r13 280r7 285r7
+240i4 NumAsiento{integer} 265r47
+241i4 NumSlot{integer} 269r45
+254i7 eleccion{integer} 259m7 261r12
+255r8 Frecuent{14|5R9} 258m8 264m33 264r33 268m32 268r32 274m24 274r24
+X 40 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+
